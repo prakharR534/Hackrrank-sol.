@@ -16,14 +16,14 @@ class Solution {
     }
 
     char popCharacter(){
-        char c = s.top()
+        char c = s.top();
         s.pop();
         return c;
 
     }
 
     char dequeueCharacter(){
-        char c = q.front()
+        char c = q.front();
         q.pop();
         return c;
 

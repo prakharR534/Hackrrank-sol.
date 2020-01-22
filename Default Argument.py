@@ -21,14 +21,14 @@ def print_from_stream(n, stream = None ):
     if stream is None:
         stream=EvenStream()
 
-    for _ in range(n):
+    for i in range(n):
         print(stream.get_next())
 
 
 raw_input = input
 
 queries = int(input())
-for _ in range(queries):
+for i in range(queries):
     stream_name, n = input().split()
     n = int(n)
     if stream_name == "even":

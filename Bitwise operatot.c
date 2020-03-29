@@ -20,7 +20,9 @@ int main()
         }
     }
     printf("%d\n", mxAnd);
+
     printf("%d\n", mxOr);
+    
     printf("%d\n", mxXor);
  
     return 0;

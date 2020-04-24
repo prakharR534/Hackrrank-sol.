@@ -1,3 +1,4 @@
+
 awk '{total=$2+$3+$4;
 avg=total/3;
 if(avg>=80) grade="A";

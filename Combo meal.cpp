@@ -8,6 +8,7 @@ vector<string> split_string(string);
 int profit(int b, int s, int c) {
     // Return the fixed profit.
     int p = c - s;
+    
     return -(p-b);
 
 }

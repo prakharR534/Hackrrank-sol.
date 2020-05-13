@@ -6,6 +6,7 @@
 int find_nth_term(int n, int a, int b, int c) {
   //Write your code here.
   if(n==1)return a;
+  
   else if(n==2)return b;
   else if(n==3 )return c;
   else  {

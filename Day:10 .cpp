@@ -11,6 +11,7 @@ int main()
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     int sum=0;
     int max=0;
+    
     while(n>0){
            if(n%2 == 1){
            sum++;

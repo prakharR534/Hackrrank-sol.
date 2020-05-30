@@ -18,16 +18,13 @@ int s= bill.size();
    //cout<<sum<<endl;
     su = sum/2;
 if(su==b)
-    {
-        cout<<"Bon Appetit";
-       
-    }
+    {     cout<<"Bon Appetit";
+           }
     else
     {
         cout<<abs(b-su);
     }
 }
-
 int main()
 {
     string nk_temp;

@@ -14,6 +14,7 @@ def last_element(arr)
     # return the last element of the array
     # arr.last
     return arr.last
+    
 end
 
 def first_n(arr, n)

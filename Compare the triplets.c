@@ -8,6 +8,7 @@ int main(){
     int a0,a1, a2;
     cin >> a0 >> a1 >> a2;
     int b0 ,b1, b2;
+    
     cin >> b0 >> b1 >> b2;
     int a = 0, b = 0;
     if(a0 > b0) {

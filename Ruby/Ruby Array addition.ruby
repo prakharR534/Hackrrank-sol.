@@ -3,6 +3,7 @@ def end_arr_add(arr, element)
     return arr.push(element)
 end
 
+
 def begin_arr_add(arr, element)
     # Add `element` to the beginning of the Array variable `arr` and return `arr`
     return arr.unshift(element)

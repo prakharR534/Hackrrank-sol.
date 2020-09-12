@@ -5,9 +5,11 @@ int main(){
     int n;
     cin>>n;
     while(n--){
+        
         string s;
         int c=0;
         cin>>s;
+        
 
         int l = s.length();
         for(int i=0;i<l;i++){

@@ -8,6 +8,7 @@ int rev(int i){
     while(i){
         rem = i % 10;
         rev = rev*10 + rem;
+        
         i /= 10;
     }
     return rev;

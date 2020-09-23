@@ -10,6 +10,7 @@ int main()
     int count[100]={0};
     for(int i=0;i<n;i++){
         cin>>A[i];
+
         count[A[i]]++;        
     }
 

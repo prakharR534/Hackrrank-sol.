@@ -8,6 +8,7 @@ int main()
    int A[100]={0};
    for(int i=0;i<n;i++){
        cin>>t;
+      
        A[t]++;
    }
 

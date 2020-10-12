@@ -6,6 +6,7 @@ class Person{
         int age;
         Person(int initialAge);
         void amIOld();
+    
         void yearPasses();
     };
 

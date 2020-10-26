@@ -7,6 +7,5 @@ input(), flags=re.I)
 if match:
     for i in match:
         print(i)
-
 else:
     print (-1)        

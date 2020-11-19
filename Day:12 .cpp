@@ -9,6 +9,7 @@ class Person{
 		string firstName;
 		string lastName;
 		int id;
+	
 	public:
 		Person(string firstName, string lastName, int identification){
 			this->firstName = firstName;

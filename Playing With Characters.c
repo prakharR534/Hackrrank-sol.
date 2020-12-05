@@ -9,6 +9,7 @@ int main()
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     char a;
     char s1[10000];
+    
     char s2[10000];
 
 

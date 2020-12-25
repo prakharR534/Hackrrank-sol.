@@ -9,9 +9,7 @@ int main(){
         string s;
         int c=0;
         cin>>s;
-        
-
-        int l = s.length();
+                int l = s.length();
         for(int i=0;i<l;i++){
             if(s[i] == s[i+1])
             c++;
